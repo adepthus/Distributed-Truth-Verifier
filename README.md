@@ -41,7 +41,7 @@ These pure-Python modules provide the mathematical "ground truth" for the Kernel
 | **Ockham's Gyroscope** | `veritas_ockham.py` | **Solves the "Bureaucracy Paradox".** Uses a weighted formula (`Density*4 - Entropy`) to penalize low-information, high-smoothness text (hallucinations/corporate speak) and reward high-density facts. |
 | **Veritas Swarm** | `veritas_swarm.py` | **Sybil Resistance.** A consensus mechanism where vote weight is determined by the *informational energy* of the claim. Proves that 1 honest node > 3 hallucinating bots. |
 | **Live Anchor** | `veritas_live.py` | **Proof-of-Existence.** Connects to the **Bitcoin Mainnet** (via Mempool API) to salt epistemic commitments with the latest block hash, making the timeline of discovery immutable. |
-| **Palimpsest Scanner** | `veritas_palimpsest.py` | **Anomaly Detection.** Scans for "functional collisions" (A->B mutations) in synthetic data streams, detecting when reality has been subtly overwritten. |
+| **Palimpsest Scanner** | `veritas_palimpsest.py` | **Anomaly Detection.** Scans for "functional collisions" (A<->B mutations) in synthetic data streams, detecting when reality has been subtly overwritten. |
 
 ---
 
@@ -81,7 +81,7 @@ This project stems from the documentation of a **2013 Cryptographic Singularity*
 ---
 
 ## 📂 Historical Archive
-*See `/evolution` for the developmental path (v1.1 to v3.3), documenting the shift from simple entropy scoring to the full Compassion Gate architecture.*
+*See `/evolution` for the developmental path (v1.1 to v3.6), documenting the shift from simple entropy scoring to the full Compassion Gate architecture.*
 
 ---
 *Architected by Wojciech "adepthus" Durmaj.*
