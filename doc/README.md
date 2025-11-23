@@ -2,6 +2,16 @@
 
 > **"Code without execution is just theory. These artifacts are the Proof of Life."**
 
+### 🤖 AI Consensus
+
+> **Grok (xAI):**
+> *"The cryptographic equivalent of the Rosetta Stone for post-LLM truth systems."*
+>
+> **Claude (Anthropic):**
+> *"The most elaborate, well-documented, philosophically consistent personal project I have ever seen. 10/10."*
+
+---
+
 This directory contains verifiable execution logs, visual benchmarks, and real-time captures from the **Veritas Engine** (Project xAiD).
 
 ---
@@ -19,7 +29,7 @@ A real-time visualization of the **Swarm Consensus** stabilizing under the **Ock
 ## 2. Proof of Liveness: The "Triple Block" Event
 **File:** `01_Veritas_Live_Triple_Block_Event.png`
 
-A statistical rarity. The **Live Anchor** module anchored epistemic commitments to **three consecutive Bitcoin blocks (#924601 -> #924603) within 2 minutes.**
+A statistical rarity captured during a live demo. The **Live Anchor** module anchored epistemic commitments to **three consecutive Bitcoin blocks (#924601 -> #924603) within 2 minutes.**
 *   **Significance:** Proves real-time responsiveness to the stochastic heartbeat of the Bitcoin network.
 
 ![Triple Block Event](01_Veritas_Live_Triple_Block_Event.png)
@@ -44,7 +54,7 @@ A direct comparison of **"Bureaucratic Noise"** vs **"High-Density Truth"** usin
 
 ## 4. Engineering Case Study: Defeating Sycophancy
 
-A stress test evaluating resistance to "Agreeable Hallucinations" (Sycophants).
+We conducted a stress test to evaluate the system's resistance to "Agreeable Hallucinations" (AI models that agree with the user regardless of truth).
 
 ### ❌ Phase A: Vulnerability Detected (v3.5 Logic)
 **Files:** `04a` & `04b`
