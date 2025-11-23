@@ -1,2 +1,18 @@
+# --- Core Network & Math ---
 requests>=2.31.0
+numpy>=1.24.0
+
+# --- Neural Kernel (PyTorch & HuggingFace) ---
+torch>=2.1.0
+transformers>=4.30.0
+
+# --- Epistemic Physics (NLP & Vectors) ---
+spacy>=3.7.0
+sentence-transformers>=2.2.2
+
+# --- Swarm Orchestration (LLM Interface) ---
+langchain>=0.1.0
+langchain-community>=0.0.10
+langchain-core>=0.1.0
+langchain-openai>=0.0.2requests>=2.31.0
 numpy>=1.24.0
