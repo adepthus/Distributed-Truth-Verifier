@@ -13,7 +13,8 @@
 ## 📜 Mission Statement
 **The Veritas Engine** is an epistemic defense protocol designed to align Artificial Intelligence with verifiable reality. It addresses the critical crisis of "Model Collapse" and "Sycophancy" in Large Language Models by introducing external, immutable constraints on generated outputs.
 
-Unlike standard RLHF, which reinforces "plausible-sounding" text (often favoring smooth hallucinations), Veritas treats Truth as a physical object with **thermodynamic cost** and **temporal coordinates**.
+Veritas is designed to function as the **"Epistemic Immune System"** for RLHF pipelines, filtering synthetic data before reinforcement learning occurs.
+👉 **[See Strategic Comparison with xAI RLHF](doc/STRATEGIC_COMPARISON_RLHF.md)**
 
 ---
 
@@ -33,7 +34,11 @@ The architecture is governed by a single, inviolable equation:
 *The Veritas Swarm suppressing sycophantic noise in real-time.*
 ![Boot Sequence](doc/00_xAiD_System_Boot_Sequence.gif)
 
-### 2. Proof of Liveness: The "Triple Block" Event
+### 2. The Inquisitor Protocol (v5.0 Active Defense)
+*Neural Engine is naive. The Oracle is not. Watch the system detect a "High-Density Lie" (Fake SHA-512 claim) and apply the Death Penalty.*
+![Inquisitor GIF](doc/11_Veritas_v5_Inquisitor_Active_Defense.gif)
+
+### 3. Proof of Liveness: The "Triple Block" Event
 *System anchoring to Bitcoin Mainnet blocks #924601, #924602, #924603 in <2 minutes.*
 ![Triple Block](doc/01_Veritas_Live_Triple_Block_Event.png)
 
@@ -55,17 +60,10 @@ These pure-Python modules provide the mathematical "ground truth" for the Kernel
 | :--- | :--- | :--- |
 | **Ockham's Gyroscope (Neural)** | `veritas_ockham_v4.py` | **Neural Upgrade.** Replaces heuristics with **Sentence-BERT** & **Spacy NER**. Calculates semantic proximity to truth axioms via vector embeddings. |
 | **Ockham's Gyroscope (Light)** | `veritas_ockham.py` | **The Physics Engine.** Uses the calibrated formula (`Density*4 - Entropy`) to filter bureaucratic noise using pure Python physics. |
+| **The Inquisitor (v5.0)** | `veritas_swarm_v5_demo.py` | **Active Defense.** Integrates Neural Density with **Oracle Verification**. Catches "High-Density Lies" (e.g., fake hashes) by querying the Timechain and applying the **Death Penalty (-100 Score)**. |
 | **Veritas Swarm** | `veritas_swarm.py` | **Sybil Resistance.** A consensus mechanism where vote weight is determined by the *informational energy* of the claim. Proves that 1 honest node > 3 hallucinating bots. |
 | **Live Anchor** | `veritas_live.py` | **Proof-of-Existence.** Connects to the **Bitcoin Mainnet** (via Mempool API) to salt epistemic commitments with the latest block hash. |
 | **Palimpsest Scanner** | `veritas_palimpsest.py` | **Anomaly Detection.** Scans for "functional collisions" (A<->B mutations) in synthetic data streams, detecting when reality has been subtly overwritten. |
-
----
-
-### 3. The Inquisitor Protocol (Active Defense)
-*Neural Engine is naive. The Oracle is not. Watch the system detect a "High-Density Lie" (Fake SHA-512 claim).*
-![Inquisitor GIF](doc/11_Veritas_v5_Inquisitor_Active_Defense.gif)
-
----
 
 ## 🚀 Quick Start
 
@@ -74,6 +72,7 @@ To verify the integrity of this repository and generate a live cryptographic com
 1.  **Install dependencies:**
     ```bash
     pip install -r production/requirements.txt
+    python -m spacy download en_core_web_sm
     ```
 
 2.  **Run the Live Anchor (Bitcoin Mainnet):**
