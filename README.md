@@ -88,7 +88,7 @@ To verify the **Vector Orthogonalization** logic:
 
 2.  **Run the Surgical Strike (v10):**
     ```bash
-    python veritas_v10_on_timechain_demo.py
+    python veritas_scalpel.py
     ```
     *Observation: Watch how the system separates Alice (Truth) from Sybil (Poison) despite them using similar technical language.*
 
