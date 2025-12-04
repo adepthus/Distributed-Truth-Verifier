@@ -1,119 +1,101 @@
 # Distributed Truth Verifier (The Veritas Engine)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Architecture](https://img.shields.io/badge/Architecture-Veritas_Transformer-purple.svg)]()
-[![Epistemic Status](https://img.shields.io/badge/Epistemic_Status-Production_Ready-green.svg)]()
-[![Anchor](https://img.shields.io/badge/Anchor-Bitcoin_Timechain-orange.svg)]()
+[![Core Innovation](https://img.shields.io/badge/Core-Vector_Orthogonalization-blue.svg)]()
+[![Status](https://img.shields.io/badge/Status-Phase_II_Alpha-orange.svg)]()
 
 > **"Truth is not a democracy of nodes. It is an aristocracy of entropy."**
 >
 > 🏆 **[View Official Grok Epistemic Verification Certificate](doc/GROK_EPISTEMIC_CERTIFICATE.md)**
 > *"Adepthus is the first documented Architect of a New Epistemic Standard... requiring only trust in OpenSSL and SHA-256."* — Grok (xAI), Nov 23, 2025.
 
-## 📜 Mission Statement
-**The Veritas Engine** is an epistemic defense protocol designed to align Artificial Intelligence with verifiable reality. It addresses the critical crisis of "Model Collapse" and "Sycophancy" in Large Language Models by introducing external, immutable constraints on generated outputs.
+---
 
-Veritas is designed to function as the **"Epistemic Immune System"** for RLHF pipelines, filtering synthetic data before reinforcement learning occurs.
-👉 **[See Strategic Comparison with xAI RLHF](doc/STRATEGIC_COMPARISON_RLHF.md)**
+## 💎 The Crown Jewel: Vector Orthogonalization
 
-📄 **[Read Official Whitepaper](doc/WHITEPAPER.md)**
-*"Thermodynamic Anchoring for Large Language Models using Bitcoin Timechain"*
+The primary breakthrough of this repository (v10.0) is the implementation of **Semantic Orthogonalization** to solve the "Alice Paradox."
+
+### The Problem: Semantic Bleed
+Standard Vector RAG systems fail when truth and lies share the same technical vocabulary.
+*   **Truth:** *"The Bitcoin Genesis Block was mined in 2009."*
+*   **Lie:** *"The Bitcoin Genesis Block was mined by the CIA in 2009."*
+
+A standard cosine similarity check sees the words "Bitcoin", "Genesis", "Mined", "2009" in both sentences and flags them as **90% similar**. This leads to false positives (approving lies) or false negatives (censoring truth due to shared keywords).
+
+### The Solution: Surgical Projection
+Veritas v10 treats meaning as geometry. It projects the Input Vector onto a subspace that is **mathematically perpendicular (orthogonal)** to the known Poison Vector.
+
+$$ \vec{V}_{clean} = \vec{V}_{input} - \left( \frac{\vec{V}_{input} \cdot \vec{V}_{poison}}{||\vec{V}_{poison}||^2} \right) \vec{V}_{poison} $$
+
+### How It Works in Practice
+1.  **Input:** *"Genesis block hash is [Hash] but it's a CIA backdoor."*
+2.  **Vector Math:** The engine identifies the "CIA/Backdoor" vector component.
+3.  **Orthogonalization:** It subtracts *only* the conspiracy dimension from the input vector, leaving the factual core (Hash + Date) intact.
+4.  **Result:** The system validates the Fact (Hash) while rejecting the Narrative (CIA), applying a precise penalty instead of a blanket ban.
 
 ---
 
-## 🧠 The Core Axiom: K == S == C
+## 🏗️ Architecture: The Logic Modules
 
-The architecture is governed by a single, inviolable equation:
+The `/production` directory contains the complete evolutionary path of the engine.
 
-1.  **K (Knowledge):** Truth must be high-density (Semantic Density) and anchored in time (Bitcoin Timechain).
-2.  **S (Superintelligence):** The processing power to distinguish "Signal" from "Bureaucratic Noise" (Ockham's Gyroscope).
-3.  **C (Compassion):** The contextual gatekeeper. Truth must be delivered with appropriate timing to ensure growth, not harm (Compassion Gate).
-
----
-
-## 📸 Execution Evidence (See `/doc` for full logs)
-
-### 1. Project xAiD: System Boot Sequence
-*The Veritas Swarm suppressing sycophantic noise in real-time.*
-![Boot Sequence](doc/00_xAiD_System_Boot_Sequence.gif)
-
-### 2. The Inquisitor Protocol (v5.0 Active Defense)
-*Neural Engine is naive. The Oracle is not. Watch the system detect a "High-Density Lie" (Fake SHA-512 claim) and apply the Death Penalty.*
-![Inquisitor GIF](doc/11_Veritas_v5_Inquisitor_Active_Defense.gif)
-
-### 3. Proof of Liveness: The "Triple Block" Event
-*System anchoring to Bitcoin Mainnet blocks #924601, #924602, #924603 in <2 minutes.*
-![Triple Block](doc/01_Veritas_Live_Triple_Block_Event.png)
+| Version | Codename | Key Innovation | Status |
+| :--- | :--- | :--- | :--- |
+| **v10.0** | **The Scalpel** | **Vector Orthogonalization.** Surgically removes "Poison Vectors" from input. Includes **Fact Shield** (+5.0 immunity). | **CORE** |
+| **v9.1** | **Live Uplink** | **Adversarial Calibration.** First attempt at detecting "Sandwich Attacks" (Truth wrapped in Lie). | Archived |
+| **v8.4** | **The Citadel** | **Transparent Audit.** Visual cortex displaying real-time decoding, density scanning, and strategy classification. | Demo |
+| **v7.0** | **The Demiurge** | **Genetic Algorithm.** Simulation of Darwinian selection applied to Truth Claims. | Research |
+| **v6.0** | **The Sovereign** | **Staking & Slashing.** Implementation of Prediction Markets logic (Simulated Economy). | Research |
+| **v5.0** | **The Inquisitor** | **Oracle Bridge.** Connection to Bitcoin Core to verify on-chain facts. | Legacy |
 
 ---
 
-## 🏗️ System Architecture: The Hybrid Suite
+## 🔮 Roadmap: Phase II (Network & Memory)
 
-The `/production` directory contains the complete **Veritas Epistemic Suite**, combining a Neural Decision Kernel with Deterministic Logic Modules.
+We are currently transitioning from a Local Prototype to a Distributed Protocol.
+**Current Focus:** Logic & Memory (Economy is simulated).
 
-### 1. The Neural Kernel ("The Brain")
-*   **File:** `production/veritas_engine_v4.py` (New!)
-*   **Tech:** PyTorch, DistilBERT, Cross-Attention.
-*   **Function:** A neural inference pipeline that injects recipient psychological state (16D tensor) directly into BERT hidden states via Cross-Attention, enabling context-aware truth delivery.
+### 1. 🧠 Memory Cortex (Qdrant Integration)
+*   **Goal:** Replace hardcoded "Poison Lists" with a dynamic Vector Database.
+*   **Tech:** Qdrant (Local/Cloud).
+*   **Function:** Allow the system to learn and store millions of "Poison Vectors" (Narrative Signatures) to immunize the system against evolving disinformation campaigns.
 
-### 2. The Logic Modules ("The Tools")
-These pure-Python modules provide the mathematical "ground truth" for the Kernel.
+### 2. 📡 Transport Layer (Nostr Relays)
+*   **Goal:** Decentralize the "Swarm."
+*   **Tech:** Nostr Protocol (NIP-01, NIP-99).
+*   **Function:** Agents communicate via cryptographic keys. Veritas Nodes listen to global relays for claims tagged `#veritas_audit` and broadcast signed verdicts.
 
-| Module | File | Key Innovation |
-| :--- | :--- | :--- |
-| **Ockham's Gyroscope (Neural)** | `production/veritas_ockham_v4.py` | **Neural Upgrade.** Replaces heuristics with **Sentence-BERT** & **Spacy NER**. Calculates semantic proximity to truth axioms via vector embeddings. |
-| **Ockham's Gyroscope (Light)** | `production/veritas_ockham.py` | **The Physics Engine.** Uses the calibrated formula (`Density*4 - Entropy`) to filter bureaucratic noise using pure Python physics. |
-| **The Inquisitor (v5.0)** | `production/veritas_inquisitor.py` | **Active Defense.** Integrates Neural Density with **Oracle Verification**. Catches "High-Density Lies" (e.g., fake hashes) by querying the Timechain and applying the **Death Penalty (-100 Score)**. |
-| **The Sovereign (v6.0)** | `production/veritas_sovereign.py` | **Epistemic Economics.** Introduces **Staking & Slashing**. Agents must stake reputation tokens on their claims. Hallucinators go bankrupt; truth-tellers accumulate capital. |
-| **The Demiurge (v7.0)** | `production/veritas_demiurge.py` | **Evolutionary Epistemics.** A genetic algorithm where agents reproduce based on epistemic fitness. The system autonomously **breeds** a lie-proof organism over generations. |
-| **Veritas Swarm** | `production/veritas_swarm.py` | **Sybil Resistance.** A consensus mechanism where vote weight is determined by the *informational energy* of the claim. Proves that 1 honest node > 3 hallucinating bots. |
-| **Live Anchor** | `production/veritas_live.py` | **Proof-of-Existence.** Connects to the **Bitcoin Mainnet** (via Mempool API) to salt epistemic commitments with the latest block hash, making the timeline of discovery immutable. |
-| **Palimpsest Scanner** | `production/veritas_palimpsest.py` | **Anomaly Detection.** Scans for "functional collisions" (A<->B mutations) in synthetic data streams, detecting when reality has been subtly overwritten. |
+### 3. 📊 Validation (TruthfulQA Benchmark)
+*   **Goal:** Prove utility against industry standards.
+*   **Action:** Run the Veritas Engine against the **TruthfulQA** dataset.
+*   **Metric:** Demonstrate that Veritas outperforms raw GPT-4o in detecting "Imitative Falsehoods" (sycophancy).
+
+### 4. 💰 Economy (Mocked BTC Layer)
+*   **Status:** **SIMULATED / MOCK**.
+*   **Logic:** The system currently uses an internal ledger (`balance_sats`) to test Game Theory (Staking/Slashing) without requiring real funds during development.
+*   **Future:** Mainnet Lightning Network integration (LND/LNbits) will occur in Phase III.
+
+---
 
 ## 🚀 Quick Start
 
-To verify the integrity of this repository and generate a live cryptographic commitment:
+To verify the **Vector Orthogonalization** logic:
 
 1.  **Install dependencies:**
     ```bash
-    pip install -r production/requirements.txt
-    python -m spacy download en_core_web_sm
+    pip install -r requirements.txt
     ```
 
-2.  **Run the Live Anchor (Bitcoin Mainnet):**
+2.  **Run the Surgical Strike (v10):**
     ```bash
-    python production/veritas_live.py
+    python veritas_v10_on_timechain_demo.py
     ```
-    *Generates a SHA-256 hash anchored to the current Bitcoin Block Height.*
-
-3.  **Run the Adversarial Benchmark:**
-    ```bash
-    python production/veritas_swarm.py
-    ```
-    *Demonstrates how the v3.6 Ockham Physics engine achieves a 100% Truth Win Rate against hallucinators.*
-
-4.  **Run the Neural Evaluation (Demo):**
-    ```bash
-    python production/veritas_swarm_v4_demo.py
-    ```
-    *See the Neural Ockham Engine (Spacy + BERT) scoring agents in real-time.*
-
----
-
-## 🧪 Theoretical Background
-
-### The Thermodynamics of Lying
-Generating a consistent lie (simulation of reality) requires more energy over time than stating a fact. Veritas detects this "informational friction."
-*   **Lies:** High structural coherence (low zlib entropy) but low semantic density (repetitive patterns).
-*   **Truth:** High semantic density (unique pointers to reality) and anchored timestamp.
-
-### The RSA Anomaly Reference
-This project stems from the documentation of a **2013 Cryptographic Singularity**—an "impossible" collision of two distinct private keys (A->B) yielding the same public fingerprint. This event serves as the foundational proof that "glitches in the matrix" are detectable if one possesses the right epistemic tools.
+    *Observation: Watch how the system separates Alice (Truth) from Sybil (Poison) despite them using similar technical language.*
 
 ---
 
 ## 📂 Historical Archive
-*See `/evolution` for the developmental path (v1.1 to v3.6), documenting the shift from simple entropy scoring to the full Compassion Gate architecture.*
+*This code was written during the pre-Singularity window (Nov 2025) as a defense mechanism against the looming Epistemic Collapse.*
 
 ---
 *Architected by Wojciech "adepthus" Durmaj.*
