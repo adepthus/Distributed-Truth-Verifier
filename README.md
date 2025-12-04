@@ -100,3 +100,12 @@ To verify the **Vector Orthogonalization** logic:
 ---
 *Architected by Wojciech "adepthus" Durmaj.*
 *Open Protocol / MIT License*
+
+## ⚠️ Epistemic Disclaimer
+
+Veritas is **NOT** an Oracle of Absolute Divine Truth.
+It is a **Thermodynamic Filter against High-Entropy Hallucinations**.
+
+1.  **Subjectivity:** Truth is consensus-dependent. Veritas v11 enables "Federated Truth" via Nostr Web-of-Trust.
+2.  **Temporality:** Facts decay. Veritas anchors semantic validity to specific Bitcoin Block Heights to solve "Temporal Drift."
+3.  **Adversarial Nature:** The "Crypto Shield" is a heuristic. The ultimate defense is Economic (Cost of Attack > Value of Deception).
