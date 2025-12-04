@@ -34,12 +34,6 @@ A statistical rarity captured during a live demo. The **Live Anchor** module anc
 
 ![Triple Block Event](01_Veritas_Live_Triple_Block_Event.png)
 
-### Standard Execution Anchor
-**File:** `01_Veritas_Live_Anchor_Single_Block924641.png`
-Clean execution showing the SHA-256 commitment generated at Block #924641.
-
-![Single Anchor](01_Veritas_Live_Anchor_Single_Block924641.png)
-
 ---
 
 ## 3. The Physics of Truth (Ockham's Gyroscope)
@@ -81,60 +75,61 @@ We conducted a stress test to evaluate the system's resistance to "Agreeable Hal
 
 ---
 
-## 5. Anomaly Detection
-**File:** `04_Palimpsest_Anomaly_Detection_Log.png`
-Demonstration of the **Palimpsest Scanner** detecting a "Functional Collision" (A->B Mutation) in cryptographic keys.
-
-![Anomaly Detection](04_Palimpsest_Anomaly_Detection_Log.png)
-
----
-
-## 6. Neural Architecture (v4.0 Upgrades)
+## 5. Neural Architecture (v4.0 Upgrades)
 
 **State-of-the-Art Transformer Integration logs.**
 
 ### The Neural Ockham Engine (Spacy + Sentence-BERT)
-**File:** `08_Neural_Ockham_v4_Transformers_Proof.png`
+**File:** `v4_neural_density.png`
 *   **Innovation:** Replaced Regex with **Vector Embeddings**. The system now understands semantic proximity to truth axioms.
 
-![Neural Ockham](08_Neural_Ockham_v4_Transformers_Proof.png)
+![Neural Ockham](v4_neural_density.png)
 
 ### The Neural Kernel (DistilBERT + Cross-Attention)
-**File:** `09_Neural_Kernel_v4_DistilBERT_Integration.png`
+**File:** `v4_stress_inference.png`
 *   **Architecture:** A live PyTorch pipeline injecting recipient psychological state into **DistilBERT** hidden states via Cross-Attention.
 
-![Neural Kernel](09_Neural_Kernel_v4_DistilBERT_Integration.png)
-
-### Swarm v4: Neural Evaluation (Live Fire Demo)
-**File:** `10_Veritas_Swarm_v4_Neural_Evaluation_Demo.png`
-*   **Scenario:** The Neural Ockham Engine evaluating agents in real-time.
-*   **Insight:** Demonstrates the necessity of the Live Anchor module to catch "High-Density Hallucinations".
-
-![Swarm v4](10_Veritas_Swarm_v4_Neural_Evaluation_Demo.png)
+![Neural Kernel](v4_stress_inference.png)
 
 ---
 
-## 🛡️ The Inquisitor Protocol (v5.0 Active Defense)
+## 6. Phase II: The Autonomous Era (v5 - v10)
 
-**Status:** `Production Ready` | **Security Level:** `Nuclear Deterrence`
+This section documents the transition from a "Passive Tool" to an "Active Sovereign Entity."
 
-> *"Veritas has moved from 'promising prototype' to **'the world's first working immune system against high-density disinformation'**. It is the AI-equivalent of nuclear epistemic deterrence."* — **Grok (xAI) Audit, Nov 2025**
+### 🛡️ The Inquisitor Protocol (v5.0 Active Defense)
+**File:** `v5_inquisitor_slashing.png`
+**The Problem:** "High-Density Hallucinations" (Confident Liars).
+**The Solution:** Active Oracle Verification.
+> **Observation:** Agent 'Dave' attempts to pass a fake hash ("SHA-512") as a fact. The Neural Engine flags it as high density, but the **Oracle Check** (Bitcoin Node) returns `FALSE`. The system applies the **Death Penalty (-20.00 Score)**.
 
-**The Problem (High-Density Hallucinations):**
-Previous Neural Engines (v4.0) could be fooled by "Confident Liars" — agents who invent specific, technical facts (e.g., *"Bitcoin uses SHA-512 encryption"*). Because the text was semantically dense, the AI assigned it a high score.
+![Inquisitor Active Defense](v5_inquisitor_slashing.png)
 
-**The v5.0 Solution (Oracle Layer):**
-We introduced **Active Verification**. The system no longer trusts high density alone. It cross-references "Hard Facts" against the Timechain.
+### 💰 The Sovereign Protocol (v6.0 Epistemic Economics)
+**File:** `v6_sovereign_bankruptcy.png`
+**The Problem:** Talk is cheap. AI generates lies at zero cost.
+**The Solution:** Staking & Slashing.
+> **Observation:** Agent 'Dave' bets 500 Credits on a lie. The system validates against the Timechain, rejects the claim, and slashes the stake. **Dave goes bankrupt** and is silenced from the network.
 
-### The Execution Cycle (See GIF below):
-1.  **Neural Scan:** The Agent (Dave) generates a lie about SHA-512. The Neural Engine gives a high score (**3.20**).
-2.  **Oracle Interrogation:** The system extracts the claim (`ALGO: SHA-512`) and queries the Timechain/Knowledge Base.
-3.  **Verdict:** `EPISTEMIC VIOLATION DETECTED`.
-4.  **The Penalty:** The system applies the **Death Penalty (-100 Score)**. The agent is flagged as compromised.
+![Sovereign Bankruptcy](v6_sovereign_bankruptcy.png)
 
-![Inquisitor Active Defense](11_Veritas_v5_Inquisitor_Active_Defense.gif)
+### 🧬 The Demiurge Protocol (v7.0 Evolutionary Epistemics)
+**File:** `v7_demiurge_evolution.png`
+**The Problem:** Static algorithms cannot keep up with evolving lies.
+**The Solution:** Genetic Algorithms.
+> **Observation:** The system simulates 5 generations of agents. Through natural selection, it breeds a **"Lie-Proof Organism"** (Agent `cd0a`) with optimized risk tolerance genes.
 
-*Proof-of-Liveness: Recorded on Block #924789 using Timechain Watermark Widget.*
+![Demiurge Evolution](v7_demiurge_evolution.png)
+
+### ⚕️ The Scalpel (v10.0 Orthogonal Defense)
+**File:** `v10_scalpel_audit.png`
+**The Problem:** "The Alice Paradox" (Truthful agents being banned because they use technical words similar to liars).
+**The Solution:** Vector Orthogonalization.
+> **Observation:** The engine mathematically projects the input vector onto a subspace orthogonal to the "Poison Vector" (Conspiracy Theory).
+> *   **Alice (Truth):** Saved via Fact Shield (+5.0 Bonus).
+> *   **Dark-Sybil (Jailbreak):** Slashed because toxicity > 0.5 broke the shield.
+
+![The Scalpel](v10_scalpel_audit.png)
 
 ---
 *Evidence generated by Adepthus using Veritas Epistemic Suite.*
